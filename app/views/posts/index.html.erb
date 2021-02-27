@@ -1,9 +1,9 @@
 <ul>
-  <% @articles.each do |article| %>
+  <% @posts.each do |post| %>
     <li>
-      <%= link_to article.title, article %>
+      <%= link_to post.body, post %>
     </li>
   <% end %>
 </ul>
 
-<%= link_to "New Article", new_article_path %>
+<%= link_to "New Post", new_post_path %>
