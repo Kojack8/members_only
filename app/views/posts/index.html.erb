@@ -1,7 +1,12 @@
+
+
 <ul>
-  <% @post.each do |post| %>
+  <% @posts.each do |post| %>
     <li>
-      <%= link_to post.body, post %>
+      <%= link_to post.body %>
+      <% if user_signed_in? %>
+        <%= post.user_id %>
+      <% end %>
     </li>
   <% end %>
 </ul>
