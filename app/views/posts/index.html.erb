@@ -5,7 +5,9 @@
     <li>
       <%= link_to post.body %>
       <% if user_signed_in? %>
-        <%= post.user_id %>
+        
+        <%= post.user.email%>
+
       <% end %>
     </li>
   <% end %>
