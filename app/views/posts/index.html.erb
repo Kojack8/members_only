@@ -4,13 +4,13 @@
   <% @posts.each do |post| %>
     <li>
       <%= link_to post.body %>
-      <% if user_signed_in? %>
-        
+      <% if user_signed_in? %>      
         <%= post.user.name%>
-
+      
       <% end %>
     </li>
   <% end %>
 </ul>
 
+<%= link_to "Sign In", new_user_session_url %>
 <%= link_to "New Post", new_post_path %>
