@@ -1,3 +1,34 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.welcome_head {
+  color: #fc8803; 
+  position: relative;
+  background-color: #031cfc;
+  margin: auto;
+  text-align: center; 
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: black;
+  clear: both;
+}
+
+#sign_in_link {
+  position: relative;
+  float: right;
+  display: block;
+  color: #031cfc;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  border-style: solid;
+
+}
+
+#new_link {
+  position: relative;
+}

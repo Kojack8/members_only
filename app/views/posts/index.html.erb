@@ -1,4 +1,6 @@
+<%= link_to "Sign In", new_user_session_url, id: "sign_in_link" %> 
 
+<%= render "welcome" %>
 
 <ul>
   <% @posts.each do |post| %>
@@ -6,11 +8,11 @@
       <%= link_to post.body %>
       <% if user_signed_in? %>      
         <%= post.user.name%>
-      
       <% end %>
     </li>
   <% end %>
 </ul>
 
-<%= link_to "Sign In", new_user_session_url %>
-<%= link_to "New Post", new_post_path %>
+<%= link_to "New Post", new_post_path, id: "new_link" %>
+
+<%= stylesheet_link_tag 'posts' %>
