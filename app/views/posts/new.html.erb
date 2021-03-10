@@ -1,4 +1,9 @@
-<h1>New Post</h1>
+<div id='active_user'>
+ <%= "You are signed in, #{current_user.name}." %> 
+</div>
+<%= render "welcome" %>
 
-<%= render "form", article: @posts %>
-<% current_user.id %> 
+<div id='post_form'>
+  <h1>New Post</h1>
+  <%= render "form", article: @posts %>
+</div>

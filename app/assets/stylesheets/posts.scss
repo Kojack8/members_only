@@ -7,21 +7,23 @@ body {
 }
 
 .welcome_head {
-  color: #fc8803; 
+  color: #ec7030; 
   position: relative;
-  background-color: #031cfc;
+  background-color: #40407e;
   margin: auto;
   text-align: center; 
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: black;
-  clear: both;
+
+  width: 50%;
 }
 
 #sign_in_link {
   position: relative;
   float: right;
   display: block;
-  color: #031cfc;
+  color: #000000;
+  background-color: grey;
   text-align: center;
   padding: 7px 8px;
   text-decoration: none;
@@ -32,3 +34,25 @@ body {
 #new_link {
   position: relative;
 }
+
+#active_user {
+  float: right
+}
+
+.logo {
+  position: relative;
+  float: right;
+
+}
+
+#welcome_banner{
+  vertical-align: top;
+  background-color: #40407e;
+}
+
+
+#post_form {
+  position: relative;
+  margin: 0 auto; 
+}
+
