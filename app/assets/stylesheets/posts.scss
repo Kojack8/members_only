@@ -9,13 +9,11 @@ body {
 .welcome_head {
   color: #ec7030; 
   position: relative;
-  background-color: #40407e;
-  margin: auto;
-  text-align: center; 
+  margin: 0px;
+
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: black;
 
-  width: 50%;
 }
 
 #sign_in_link {
@@ -31,9 +29,6 @@ body {
 
 }
 
-#new_link {
-  position: relative;
-}
 
 #active_user {
   float: right
@@ -46,8 +41,12 @@ body {
 }
 
 #welcome_banner{
+  width: 70%;
   vertical-align: top;
+  margin: 0 auto;
   background-color: #40407e;
+  text-align: center; 
+
 }
 
 
