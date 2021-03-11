@@ -1,15 +1,20 @@
 <%= link_to "Sign In", new_user_session_url, id: "sign_in_link" %> 
 
+
 <%= render "welcome" %>
 
 <ul>
   <% @posts.each do |post| %>
-    <li>
-      <%= link_to post.body %>
-      <% if user_signed_in? %>      
-        <%= post.user.name%>
-      <% end %>
-    </li>
+    <div class='post'>
+      <li>
+        <%= post.body %>
+        <% if user_signed_in? %>  
+          <div class = 'poster'>    
+            <%= "Author: #{post.user.name}" %>
+          </div>
+        <% end %>
+      </li>
+    </div>
   <% end %>
 </ul>
 
