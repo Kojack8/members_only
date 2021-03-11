@@ -1,4 +1,8 @@
-<%= link_to "Sign In", new_user_session_url, id: "sign_in_link" %> 
+<% if user_signed_in? %>
+  <%= link_to "Sign In", new_user_session_url, id: "sign_in_link" %> 
+<% else %>
+  <%= link_to "Sign Up", new_user_registration_url, id: "sign_in_link" %> 
+<% end %>
 
 
 <%= render "welcome" %>
