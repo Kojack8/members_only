@@ -21,3 +21,31 @@ Sign up using a fake e-mail and password to see the creator of a post, as well a
 <img src="./app/assets/images/members_only2.png" width="400">
 <img src="./app/assets/images/members_only3.png" width="400">
 
+***
+## Installation 
+
+Clone the repo to your local machine: 
+```ruby
+$ git clone https://github.com/Kojack8/members_only.git
+```
+Install the needed gems:
+```ruby
+$ bundle install
+```
+Install webpacker:
+```
+$ rails webpacker:install
+```
+Migrate the database:
+```ruby
+$ rails db:migrate
+```
+Finally, on root path run a local server:
+```ruby
+$ rails s
+```
+Open browser to view application:
+```ruby
+localhost:3000
+```
+
