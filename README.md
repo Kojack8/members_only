@@ -8,8 +8,16 @@ It was created for The Odin Project's "Project: Authentication" featured here: h
 ## Live Demo
 
 You can try it out [here](https://quiet-earth-82098.herokuapp.com/)  
-Heroku is (in this case) a complimentary service and may take up to thirty seconds to start a dyno. 
+Heroku is (in this case) a complimentary service and it may take up to thirty seconds to start a dyno. 
 ___Thank you for your patience.___
 
 Sign up using a fake e-mail and password to see the creator of a post, as well as its post date.
 (DO NOT USE ANY VALID INFORMATION, EMAILS ARE NOT AUTHENTICATED)
+
+## Screenshots 
+
+
+<img src="./app/assets/images/members_only1.png" width="400">
+<img src="./app/assets/images/members_only2.png" width="400">
+<img src="./app/assets/images/members_only3.png" width="400">
+
